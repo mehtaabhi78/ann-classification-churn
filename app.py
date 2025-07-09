@@ -10,7 +10,7 @@ from sklearn.preprocessing import StandardScaler,LabelEncoder,OneHotEncoder
 model = tf.keras.models.load_model('ann.h5')
 
 #scaler = pickle.load(open("langchiainHF/pythonOnlyLearning/nn/ann/scaler.pkl", "rb"))
-scaler = pickle.load(open("lscaler.pkl", "rb"))
+scaler = pickle.load(open("scaler.pkl", "rb"))
 
 #with open('langchiainHF/pythonOnlyLearning/nn/ann/label_encoder_gender.pkl','rb') as file:
 with open('label_encoder_gender.pkl','rb') as file:
